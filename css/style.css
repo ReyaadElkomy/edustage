@@ -1,0 +1,337 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Trispace', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+}
+.mainSidebar{
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/home-banner.jpg);
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.bg-light{
+	background-color: #ebe5e9 !important;
+}
+
+.nav-link{
+	font-weight: bold;
+	font-size: 15px;
+	color: #002347 !important;
+	transition-property: all;
+	transition-duration: .5s;
+	padding: 10px
+}
+
+.nav-link:hover{
+	color: #fdc632 !important;
+}
+
+.contentDetials p{
+	color: #002347;
+	font-size: 20px;
+	font-family: 'Roboto';
+}
+
+.contentDetials h1{
+	color: #002347;
+		font-family: 'Rubik', sans-serif;
+
+}
+
+.btnCutom1{
+	background-color: #002347;
+	font-size: 12px;
+	padding: 12px 40px;
+	color: #fdc632;
+
+}
+
+.btnCutom1:hover{
+	border: 1px solid #002347;
+	font-size: 12px;
+	background-color: rgba(250,250,250,.4);
+	color: #002347;
+}
+
+.btnCutom2{
+	border: 0;
+	background-color: #fdc632;
+	font-size: 12px;
+	padding: 12px 40px;
+	color: #002347;
+}
+.btnCutom2:hover{
+	color: #fdc632;
+	background-color: #002347;
+}
+
+/* Start Awesome Feature */
+.flexcenter h2{
+	font-size: 40px;
+	font-family: 'Rubik', sans-serif;
+
+}
+.flexcenter p{
+	font-style: italic;
+	color: #7b838a;
+}
+
+.card{
+	background-color: #f9f9ff;
+	border: 0;
+	border-radius: 10px;
+	transition-property: all;
+	transition-duration: .5s;
+}
+.card:hover{ 
+	box-shadow: 0 0 10px 10px rgba(68, 68, 68, 0.1); /* with blur shadow*/
+}
+
+/* End Awesome Feature */
+
+/*Start Our Popular Courses*/
+
+.flexcenter h2{
+	font-family: 'Rubik', sans-serif;
+	color: #002347;
+}
+/* End Our Popular Courses*/
+
+
+/* Start Register Now */
+.registerNow{
+	width: 100%;
+	background-color: #002347;
+}
+.registerNow h2{
+	font-family: 'Rubik', sans-serif;
+
+}
+
+.customItem{
+	    border: 1px solid rgba(255, 255, 255, 0.4);
+	    padding: 40px 25px;
+	    border-radius: 5px;
+	    background-color: #334f6c;
+	    color: #fff;
+}
+
+.customItem span{
+	font-size: 15px
+}
+.registerCourses{
+	border-radius: 5px;
+}
+.registerCourses h3{
+	color: #002347 ;
+	font-family: 'Rubik', sans-serif;
+
+}
+
+.registerCourses p{
+	color: #A1A0A0; 
+}
+.cutomBtn{
+	background-color: #fdc632;
+	border: 0;
+	color: #002347;
+	font-size: 20px;
+	transition: all .7s;
+}
+
+.cutomBtn:hover{
+	    background-color: #002347;
+	    color: #fdc632;
+}
+
+.card-body .cuH6{
+	background-color: #002347;
+	width: 80px;
+	padding: 7px;
+	font-size: 11px;	
+}
+
+.card{
+	  overflow: hidden;
+
+}
+.customCard img{
+ transition: all .5s;
+}
+.customCard:hover img {
+	transform: scale(1.1);
+	
+}
+
+.customCard h5{
+	transition:all .5s;
+}
+.customCard:hover h5{
+	color: #fdc632;
+}
+
+.customCard p{
+	color: #8C8C8C;
+	font-weight: 100;
+}
+
+.customCard{
+	position: relative;
+}
+.customFlex{
+	width: 70px;
+	height: 70px;
+	background-color: #002347;
+	position: absolute;
+	border-radius: 50%;
+	top: 45%;
+	right: 0;
+	margin-right: 10px;
+	transition: all .5s;
+}
+
+.customFlex h5{
+	color:  #fdc632;
+	transition: all .5s;
+}
+
+.customCard:hover .custH5{
+	color: #002347;
+}
+.customCard:hover .customFlex{
+	background-color: #fdc632;
+}
+/* End Register Now */
+
+/* Start Our Expert Trainers */
+.ourExperth5{
+	color: #002347 !important;
+	font-size: 25px;
+}
+.ourExperth6{
+
+	color: #756767;
+	font-size: 14px;
+}
+
+.ourExpertTrainer .card-text{
+	color: #756767;
+	font-size: 15px;
+	font-family: 'Roboto';
+}
+
+.acustom {
+	color: #002347;
+	transition: all .5s;
+}
+.acustom:hover {
+	color: #fdc632;
+}
+/* End Our Expert Trainers */
+
+/* Start Upcoming Events */
+.uocomingEvents{
+	width: 100%;
+	background-color: #002347;
+}
+
+.uocomingEvents .pcustome{
+	color: #ddd;
+	font-size: 14px;
+}
+
+.caption {	
+	overflow: hidden;
+	position: relative;
+
+}
+
+.caption img{
+
+	transition: all .5s;
+}
+.caption:hover img{
+	transform: scale(1.1);
+}
+
+.caption-item{
+	font-size: 14px;
+	width: 50%;
+	background: rgba(0, 35, 71, 0.5);	
+	position: absolute;
+	top: 0;
+	right: 15px;
+	border-bottom-left-radius: 8px;
+}
+
+.caption-item h2{
+	color: #fdc632;
+}
+.caption-item button{
+	background-color: #fdc632;
+	color: #002347;
+	transition: all .5s;
+}
+
+.caption-item button:hover{
+	background-color: #002347;
+	color: #fdc632;
+}
+
+
+
+/* End Upcoming Events */
+
+
+
+/* Start clientSay */
+.clientSay{
+
+}
+.clints{
+	border: 1px solid #ddd;
+}
+
+/* End clientSay */
+
+
+/* Start page-footer */
+.page-footer{
+
+	background-color: #002347;
+}
+
+.list-unstyled a{
+	color: #7b838a;
+}
+
+.list-unstyled a:hover{
+	color: #fff;
+}
+
+.btnSign{
+	background-color: #fdc632;
+	color: #002347 !important;
+	border:1px solid #fff;
+}
+
+.btnSign:hover {
+ background-color: #AA7F0C;
+ border:1px solid #fff;
+}
+
+.list-inline-item:hover{
+	color: #FDC632 !important;
+
+}
+
+.brand{
+	color: #fdc632 !important;
+}
+
+
+/* End page-footer*/
